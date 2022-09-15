@@ -6,18 +6,22 @@ class Program
     {
       
 
-        int value;
+        /*int value;
         string inp = Console.ReadLine();
         if (int.TryParse(inp, out value)) ;
 
 
 
-        int i = 0;
-        while (i <= value)
+        int i = 0;*/
+        while (true)
         {
             var input = Console.ReadLine();
+            if(input == "")
+            {
+                break;
+            }
             Excersise7.MyTryParse(input);
-            i++;
+            
         }
 
 
